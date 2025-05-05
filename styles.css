@@ -90,3 +90,14 @@
   transition: background-color 0.3s;
 }
 
+.theme-container.dark .theme-toggle-button{
+  background-color: var(--button-bg-dark);
+}
+
+.theme-toggle-button:hover{
+  background-color: var(--button-hover-light);
+}
+
+.theme-container.dark .theme-toggle-button:hover{
+  background-color: var(--button-hover-dark);
+}
